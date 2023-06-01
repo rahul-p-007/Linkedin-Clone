@@ -1,0 +1,114 @@
+.loginForm {
+  display: flex;
+  padding: 3rem 18%;
+}
+.loginForm__body {
+  flex-direction: column;
+}
+.loginForm__body > h1 {
+  font-size: 4rem;
+  width: 123%;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: var(--Linkedin-font-color-2);
+}
+.loginForm__body > .loginForm__inputField {
+  display: flex;
+  flex-direction: column;
+}
+.loginForm__body > .loginForm__inputField > label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--Linkedin-main-gray-color-1);
+}
+.loginForm__body > .loginForm__inputField > input {
+  width: 68%;
+  border: 1px solid black;
+  padding: 16px;
+}
+.loginForm__image {
+  object-fit: contain;
+  width: 48%;
+  margin-bottom: 0.5rem;
+}
+.loginForm__body .login__forgetButton > p {
+  color: var(--Linkedin-color);
+  margin-top: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.loginForm__body .login__forgetButton > p:hover {
+  text-decoration: underline;
+}
+.loginForm .login__buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.login__buttons .login__signInButton {
+  background-color: #0a66c2 !important;
+  color: white !important;
+  padding: 15px;
+  width: 69%;
+  border: none;
+  border-radius: 55px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+.login__buttons > .login__signInButton2 {
+  background-color: #ffff;
+  color: black;
+  padding: 18px;
+  width: 69%;
+  border: 1px solid black;
+  border-radius: 55px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.login__buttons > .login__signInButton2:hover {
+  background-color: rgba(211, 211, 211, 0.3);
+  color: var(--Linkedin-main-black-1);
+}
+.login__buttons > p {
+  letter-spacing: 0px;
+  color: var(--Linkedin-main-gray-color-1);
+}
+/* .login__buttons > .login__googleButton {
+  width: 56% !important;
+  border-radius: 55px !important;
+}
+.login__buttons > .login__googleButton > img {
+  width: 20px !important;
+  margin-right: 10px;
+} */
+.login__buttons > .google__login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 15px;
+  width: 69%;
+  border-radius: 55px;
+  background: #ffff;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.login__buttons > .google__login:hover {
+  background-color: rgba(211, 211, 211, 0.3);
+  color: var(--Linkedin-main-black-1);
+}
+.login__buttons > .google__login > img {
+  width: 20px;
+  margin-right: 10px;
+}
+.login__buttons > .google__login > p {
+  font-size: 15px;
+}
+
+.login__buttons > .login__signInButton:hover {
+  background-color: #004182;
+}

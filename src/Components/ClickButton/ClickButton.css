@@ -1,0 +1,17 @@
+.clickButton__btn {
+  border: 1px solid var(--Linkedin-main-black-1);
+  padding-top: 17px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  /* width: 11rem ; */
+  padding-inline: 34px;
+  border-radius: 75px;
+  margin-inline: 2px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.clickButton__btn:hover {
+  background-color: rgba(202, 204, 206, 0.3);
+}

@@ -1,0 +1,62 @@
+.thirdSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-inline: 13%;
+}
+.thirdSection .thirdsection__left img {
+  object-fit: contain;
+  width: 50%;
+  /* height: 50%; */
+}
+.thirdSection .thirdsection__right img {
+  object-fit: contain;
+  width: 50%;
+  /* height: 50%; */
+}
+.thirdsection__left > h1 {
+  max-width: 70%;
+  font-size: 2.9rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.thirdsection__right > h1 {
+  max-width: 70%;
+  font-size: 2.9rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.thridsection__leftBtn {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 45px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid;
+}
+.thridsection__leftBtn:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+.thridsection__rightBtn {
+  margin-top: 20px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 55%;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Button {
+  background-color: #fff !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+  cursor: pointer !important;
+  font-size: 15px !important;
+}

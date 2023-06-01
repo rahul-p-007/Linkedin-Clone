@@ -1,0 +1,65 @@
+.forthsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color: #f3f2f0;
+  flex-wrap: wrap;
+}
+.forthsection__left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+.forthsection__heading {
+  width: 50%;
+  margin-left: 5rem;
+}
+.forthsection__heading h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--Linkedin-font-color-1);
+  margin-bottom: 10px;
+  width: 120%;
+}
+.forthsection__heading h1 span {
+  color: rgba(0, 0, 0, 0.5);
+}
+.forthsection__left .forthsection__left__buttons {
+  margin-top: 20px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 40%;
+  background-color: rgba(234, 230, 223, 0.5);
+
+  cursor: pointer;
+  border: none;
+}
+.forthsection__left .forthsection__left__buttons:hover {
+  background-color: rgb(234, 230, 223);
+}
+
+.forthsection__left
+  .forthsection__left__buttons
+  .forthsection__left__buttons__background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forthsection__left
+  .forthsection__left__buttons
+  .forthsection__left__buttons__background
+  .btn {
+  font-size: 18px;
+}
+.forthsection__left
+  .forthsection__left__buttons
+  .forthsection__left__buttons__background
+  .btn:hover {
+  text-decoration: underline;
+}
+.forthsection__right {
+  margin-left: 20px;
+}

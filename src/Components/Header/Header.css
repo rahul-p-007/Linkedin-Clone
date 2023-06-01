@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.header__logoImg {
+  object-fit: contain;
+  width: 150px;
+}
+.header__information {
+  display: flex;
+  align-items: center;
+}
+.header__information > .header__icons > .MuiSvgIcon-root {
+  margin-right: 25px;
+  color: var(--Linkedin-main-gray-color-1);
+  font-size: 30px;
+  cursor: pointer;
+}
+.header__information > .header__icons > .MuiSvgIcon-root:hover {
+  color: var(--Linkedin-main-black-1);
+}
+.header__information > .header__line {
+  width: 0px;
+  height: 23px;
+  border: 0.5px solid var(--Linkedin-main-gray-color-1);
+}
+
+.header__information > .header__buttons {
+  margin-left: 20px;
+}
+.header__information > .header__buttons > .header__loginBtn {
+  color: var(--Linkedin-main-gray-color-1);
+  font-weight: 600;
+  text-transform: none !important;
+  font-size: 15px;
+  padding: 15px;
+}
+.header__information > .header__buttons > .header__loginBtn:hover {
+  background-color: rgba(202, 204, 206, 0.2);
+  border-radius: 50%;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.header__information > .header__buttons > .header__signUp {
+  border: 1px solid var(--Linkedin-color);
+  border-radius: 21px;
+  text-transform: none !important;
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}

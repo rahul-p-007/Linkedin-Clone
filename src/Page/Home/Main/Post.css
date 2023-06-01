@@ -1,0 +1,96 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-inline: 12px;
+  /* width: 36rem; */
+  display: flex;
+  height: 179px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+.tweetBox .message__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tweetBox .message__icons .message__icons__1 {
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.tweetBox .message__icons .message__icons__1:hover {
+  background-color: rgba(202, 202, 206, 0.5);
+}
+.tweetBox .message__icons .message__icons__1 p {
+  color: var(--Linkedin-main-gray-color-1);
+  font-size: 15px;
+}
+.tweetBox .message__icons .message__icons__1 .photoIcon {
+  color: var(--Linkedin-color);
+}
+.tweetBox .message__icons .message__icons__1 .videoIcon {
+  color: rgb(95, 155, 65);
+}
+.tweetBox .message__icons .message__icons__1 .eventIcon {
+  color: #c37d16;
+}
+.tweetBox .message__icons .message__icons__1 .ArticleIcon {
+  color: rgb(225, 103, 69);
+}
+
+.tweetBox__input {
+  padding: 20px;
+  display: flex;
+}
+.messageInput {
+  display: flex;
+  flex-direction: column;
+}
+.messageInput > .messageInput__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.messageInput > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+.messageInput > .messageInput__info p {
+  color: var(--Linkedin-main-gray-color-1);
+  font-size: 15px;
+  padding-left: 5px;
+}
+.tweetBox__ImageInput {
+  border: none;
+  padding: 10px;
+}
+.tweetBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+.tweetBox__tweetButton {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important ;
+}
